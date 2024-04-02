@@ -1,10 +1,12 @@
 package = "luacraft"
 version = "dev-1"
 source = {
+   url = "git://github.com/benodiwal/luacraft",
+   branch = "main"
 }
 description = {
    summary = "A command paser library in lua",
-   author = "Sachin sachinbeniwal0101@gmail.com"
+   homepage = "https://github.com/benodiwal/luacraft",
 }
 dependencies = {
    "lua >= 5.1, < 5.5",
